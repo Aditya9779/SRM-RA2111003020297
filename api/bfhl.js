@@ -4,10 +4,10 @@ app.use(express.json());
 
 app.post('/api/bfhl', (req, res) => {
   const { data } = req.body;
-  const fullName = "Shivanshu singh";
-  const dob = "05-07-2004";
-  const email = "sivanshusingh2004@gmail.com";
-  const rollNumber = "RA2111003020282";
+  const fullName = "Aditya Srivastava";
+  const dob = "08-02-2003";
+  const email = "aditya107161@gmail.com";
+  const rollNumber = "RA2111003020297";
 
   const numbers = data.filter(item => !isNaN(item));
   const alphabets = data.filter(item => isNaN(item));
